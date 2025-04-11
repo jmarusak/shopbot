@@ -1,0 +1,4 @@
+browser-use
+dotenv
+langchain-google-genai
+pydantic
