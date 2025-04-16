@@ -14,7 +14,6 @@ if not api_key:
 
 class Job(BaseModel):
     title: str
-    description: str
 
 class Jobs(BaseModel):
     jobs: List[Job]
@@ -55,7 +54,6 @@ async def main():
 
         for job in parsed.jobs:
             print(job.title)
-            print(job.description)
             print()
     else:
         print("No result found.")
