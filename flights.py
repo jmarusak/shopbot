@@ -28,7 +28,7 @@ browser = Browser(
 llm = ChatGoogleGenerativeAI(model='gemini-2.0-flash', api_key=SecretStr(api_key))
 
 # Read LLM prompt from file
-with open('prompt_flight.txt', 'r') as file:
+with open('prompt_flights.txt', 'r') as file:
     prompt = file.read()
 
 # Create agent with the model

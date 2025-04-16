@@ -1,0 +1,9 @@
+Given a job site, list all job titles on first page.
+
+Site URL: https://emergitel.catsone.com/careers
+
+- Insert "analyst" in the Search Job Title box.
+- List only job titles posted 01-04-2025 (format "DD-MM-YYYY").
+- Use column "Date Posted" to determine the date. "Date Posted" is in the format "DD-MM-YYYY".
+- Scroll to the bottom of the page to load all job titles.
+- Sort job titles in latest to oldest order based on "Date Posted".

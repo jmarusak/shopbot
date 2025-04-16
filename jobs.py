@@ -32,7 +32,7 @@ browser = Browser(
 llm = ChatGoogleGenerativeAI(model='gemini-2.0-flash', api_key=SecretStr(api_key))
 
 # Read LLM prompt from file, use default if not provided
-prompt_file = sys.argv[1] if len(sys.argv) > 1 else 'prompt_jobs.txt'
+prompt_file = sys.argv[1] if len(sys.argv) > 1 else 'prompt_jobs_procom.txt'
 with open(prompt_file, 'r') as file:
     prompt = file.read()
 

@@ -1,4 +1,4 @@
-Given a job site, list all job titles and descriptions on first page.
+Given a job site, list all job titles on first page.
 
 Site URL: https://portal.procomservices.com/jobs?loginType=con
 
